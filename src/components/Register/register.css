@@ -1,0 +1,102 @@
+.registerForm {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #FFFFFF;
+    width: 434px;
+    height: 20%;
+    border-radius: 22px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+.registerHeading{
+    font-family: 'Segoe UI', bold;
+    font-size: 35px;
+    text-align: center;
+}
+
+.messageBar{
+    height: 5%;
+    margin: 2%;
+}
+
+.message-Success{
+    color: green;
+}
+.message-Failed{
+    color: red;
+}
+
+form {
+    display: inline-block;
+    align-items: center;
+    height: 270px;
+    width: 350px;
+    margin-top: 2%;
+    margin-bottom: 3%;
+}
+
+.text_label {
+    display: flex;
+    align-items: center;
+    margin-left: 3%;
+    width: 350px;
+}
+
+.name_text_area {
+    align-content: center;
+    border-radius: 12px;
+    width: 50%;
+    height: 34px;
+    margin-right: 30px;
+    margin-left: 90px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.mail_text_area {
+    align-content: center;
+    border-radius: 12px;
+    width: 50%;
+    height: 34px;
+    margin-right: 30px;
+    margin-left: 85px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.password1_text_area {
+    align-content: center;
+    border-radius: 12px;
+    width: 50%;
+    height: 34px;
+    margin-right: 30px;
+    margin-left: 65px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.password2_text_area {
+    align-content: center;
+    border-radius: 12px;
+    width: 50%;
+    height: 34px;
+    margin-right: 34px;
+    margin-left: 10px;
+    box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.2), 0 0 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+
+
+.registerBtn {
+    margin-top: 10px;
+    width: 165px;
+    height: 60px;
+    border-radius: 30px;
+    background: #521400;
+    border: none;
+    font-family: 'Montserrat';
+    font-size: 20px;
+    color: #FFFFFF;
+    cursor: pointer;
+}
+
+
